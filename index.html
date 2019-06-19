@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<meta charset="utf-8">
+	<title>test</title>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Google Book</h1>
+		</div>
+		<form action="" id="search-form">
+			<div class="form-group input-group add-form">
+				<input 
+					class="form-control"
+					placeholder="Search"
+					name="srch-term" 
+					id="srch-term" 
+					type="text" 
+					autocomplete="off" 
+				>
+				<div class="input-group-append">
+					<button
+						class = "btn btn-primary"
+						type = "submit"
+						id = "button-addon2"
+					>Submit</button>
+				</div>
+			</div>
+		</form>
+		<div class="row">
+			<div class="col-sm-5">
+				<div class="card bg-light">
+					<div class="card-header">Books</div>
+					<div class="card-body">
+						<div class="list-group" id="book-list">No data</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7"></div>
+		</div>
+	</div>
+	
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="scripts/main.js"></script>
+</body>
+</html>
